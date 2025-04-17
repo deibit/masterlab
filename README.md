@@ -1,14 +1,21 @@
 ## Readme
 
-Esta aplicación es parte del Máster de Ciberseguridad del Campus Ciberseguridad.
-
-Posee multitud de fallos a propósito para el aprendizaje de vulnerabilidades web y no está pensada para su puesta en
+Esta aplicación posee multitud de fallos a propósito para el aprendizaje de vulnerabilidades web y no está pensada para su puesta en
 producción.
+
+Su uso es estrictamente educativo.
 
 ### Descargo
 
-Cualquier uso no educativo de esta aplicación asume que el usuario o usuaria
-reconoce los riesgos inherentes del uso de material educativo.
+Este repositorio ha sido creado exclusivamente con fines educativos y de aprendizaje sobre vulnerabilidades web y técnicas de seguridad informática.
+
+El autor no se responsabiliza por el uso indebido de este contenido.
+
+Cualquier acción realizada con base en este material debe estar enmarcada en un entorno controlado y legalmente autorizado.
+
+No está permitido utilizar este código o conocimiento en sistemas que no te pertenezcan o sin el consentimiento explícito del propietario.
+
+El uso de estas herramientas fuera de un entorno de laboratorio puede constituir una actividad ilegal. Utilízalo bajo tu propia responsabilidad.
 
 ### Imagen docker
 
