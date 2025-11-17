@@ -29,9 +29,26 @@ El uso de estas herramientas fuera de un entorno de laboratorio puede constituir
 
 ### Scripts auxiliares:
 
+#### Reiniciar contenido de la base de datos
+
 El script `scripts/clean_database.sh` reinicia la base de datos de la
 aplicación. Sirve para limpiar los datos de esta y reiniciarlos a origen.
+
+#### Arreglar problemas con permisos al subir archivos
 
 El script `scripts/fix_imgs_permissions.sh` cambia el propietario de la carpeta "imgs" dentro del contenedor
 del servicio `ml_1`. Esto solo es necesario si te está dando problemas en caso
 de que encuentres el RFI y no puedas subir nada.
+
+#### Cookie catcher para hacer pruebahacer pruebas
+
+El script `scripts/cookie_catcher.py` os puede servir para probar las
+vulnerabilidades relacionadas con la cookie o cualquier cosa que queráis
+"exfiltrar". Hace de servidor malicioso. Se arranca con `python
+cookie_catcher.py` y se pondrá a escuchar en el puerto 8080 (ojo, cambiadlo si
+veis que está ya ocupado por otro servidor). Tiene un sólo método:
+`catcher?cookie=<valor>`
+
+Podéis probarlo con:
+
+`curl "http://localhost:8080/catcher?cookie=hola"`
