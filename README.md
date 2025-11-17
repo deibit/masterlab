@@ -40,11 +40,13 @@ El script `scripts/fix_imgs_permissions.sh` cambia el propietario de la carpeta 
 del servicio `ml_1`. Esto solo es necesario si te está dando problemas en caso
 de que encuentres el RFI y no puedas subir nada.
 
-#### Cookie catcher para hacer pruebahacer pruebas
+#### Cookie catcher por si necesitas emular un servidor malicioso
 
 El script `scripts/cookie_catcher.py` os puede servir para probar las
 vulnerabilidades relacionadas con la cookie o cualquier cosa que queráis
-"exfiltrar". Hace de servidor malicioso. Se arranca con `python
+"exfiltrar". Hace de servidor malicioso. 
+
+Se arranca con `python
 cookie_catcher.py` y se pondrá a escuchar en el puerto 8080 (ojo, cambiadlo si
 veis que está ya ocupado por otro servidor). Tiene un sólo método:
 `catcher?cookie=<valor>`
